@@ -1,3 +1,17 @@
+## v2.18 — WhatsApp link preview (2026-10-14)
+
+- Fixed Open Graph image URL to an absolute public HTTPS URL for GitHub Pages on all 11 pages.
+- Added og:url, og:image:secure_url, image content-type/dimensions (1200 × 630), and twitter:image.
+- Kept noindex demo status; public legal drafts still need final review.
+- No changes to visual layout, JS, CSS or images.
+
+## 2.17 — Mobile Copy & WEBLIOR Links (2026-10-14)
+
+- Mobile: prevented orphaned “27.” in Kontakt description and Leistungen chapter link; kept “Albrechtstraße 27” together and allowed the services location link its own row.
+- Removed the decorative 8-ray starburst in the “A Personal Touch” section completely, including unnecessary spacing.
+- Linked WEBLIOR in the narrow header demo strip and footer credit across all 11 HTML pages; destination https://weblior.de/. Verify the studio URL is live before publicly promoting it.
+- No changes to photography, Journal, colors, other content, WordPress import, or legal drafts.
+
 ## v2.16 — SVG Icons / iPhone Compatibility
 - Replace Unicode up-right arrows, down arrows, stars, and decorative sparkles with real inline SVG icons on every HTML page. No emoji rendering on iOS.
 - Preserve existing layout, colours, navigation and content.
