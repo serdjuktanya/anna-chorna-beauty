@@ -1,3 +1,11 @@
+## v2.19 — New WhatsApp / Open Graph Cover
+
+- New 1200×630 photographic editorial OG image `assets/og-anna-chorna-v219.jpg` with Anna Chorna branding and services; the pictured woman is an **illustrative AI-generated model, not Anna or a client**.
+- Updated 11 HTML pages' `og:image`, `og:image:secure_url`, `twitter:image`, and image type/alt; image filename is new to reduce stale image caching.
+- Updated Open Graph, Twitter and HTML SEO titles/descriptions to describe Anna Chorna Beauty Studio & School without the "WEBLIOR Design Concept" branding in shared link previews. Retained distinctive per-page titles/descriptions.
+- All main site appearance, navigation, images, animations, legal draft warnings, external developer credit links and current `noindex` status are unchanged.
+- WhatsApp may cache previews by shared-page URL; to retest share `https://serdjuktanya.github.io/anna-chorna-beauty/?v=219` after the updated files have been deployed.
+
 ## v2.18 — WhatsApp link preview (2026-10-14)
 
 - Fixed Open Graph image URL to an absolute public HTTPS URL for GitHub Pages on all 11 pages.
