@@ -631,3 +631,10 @@
    separator line. Keep the short underline of the "Artikel lesen" CTA.
    This does not change full Journal listing, layout, or card spacing. */
 .page-index .journal-home .journal-card { border-bottom: none; }
+
+/* v2.16: intrinsic inline SVG icons — no iOS emoji glyph substitutions */
+.icon-arrow-up-right,.icon-arrow-down,.icon-starburst,.icon-sparkle{width:1em;height:1em;display:inline-block;vertical-align:-.12em;flex:0 0 auto;overflow:visible;color:inherit;stroke:currentColor}
+.icon-starburst{width:1em;height:1em;vertical-align:middle}
+.sig-ornament .icon-starburst{display:block;width:1em;height:1em}
+/* Even in long inline CTA text, SVG never selects an emoji font */
+.world-meta svg,.gallery-plus svg,.journal-read svg{vertical-align:middle}

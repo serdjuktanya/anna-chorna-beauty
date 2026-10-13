@@ -1,3 +1,8 @@
+## v2.16 — SVG Icons / iPhone Compatibility
+- Replace Unicode up-right arrows, down arrows, stars, and decorative sparkles with real inline SVG icons on every HTML page. No emoji rendering on iOS.
+- Preserve existing layout, colours, navigation and content.
+- GitHub Pages: replace modified HTML files and assets/style.css in repository root.
+
 ## v2.15 — Journal: one underline only
 - Auf der Startseite die zusätzliche lange untere Trennlinie unter den Journal-Karten entfernt. Die kurze Linie direkt unter „Artikel lesen“ bleibt erhalten.
 - Alle anderen Sektionen, das vollständige Journal, Layout, Typografie und Links unverändert.
