@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Pages currently contain meta robots noindex because this is an unapproved portfolio DEMO.
+# Before publication complete legal pages, consent, canonical, sitemap, and remove noindex.

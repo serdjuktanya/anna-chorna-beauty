@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:ns2="http://wordpress.org/export/1.2/excerpt/" xmlns:wp="http://wordpress.org/export/1.2/" version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/">
+  <channel>
+    <title>Anna Chorna — WEBLIOR Journal draft import</title>
+    <link>https://example.invalid/</link>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <description>Konzeptartikel als WordPress-Entwürfe; Demo-Projekt ohne veröffentlichte Betreiberangaben.</description>
+    <item>
+      <title>Coloration mit Gefühl</title>
+      <description>Wie Haarfarben zu Persönlichkeit, Licht und einem natürlichen Gesamteindruck passen.</description>
+      <wp:post_id>1</wp:post_id>
+      <wp:post_name>journal-hair</wp:post_name>
+      <wp:post_type>post</wp:post_type>
+      <wp:status>draft</wp:status>
+      <wp:comment_status>closed</wp:comment_status>
+      <category domain="category" nicename="hair-&amp;-color">HAIR &amp; COLOR</category>
+      <content:encoded>&lt;p&gt;Wie Haarfarben zu Persönlichkeit, Licht und einem natürlichen Gesamteindruck passen.&lt;/p&gt;&lt;h2&gt;Nicht nur ein Farbton&lt;/h2&gt;&lt;p&gt;Eine schöne Coloration beginnt nicht beim Trend, sondern bei deinem Stil. Warme Nuancen wirken im Tageslicht anders als unter Studiolicht. Ein persönliches Gespräch über Wünsche, Pflege und Alltag hilft, einen passenden Look zu finden.&lt;/p&gt;&lt;h2&gt;Balance statt Schablone&lt;/h2&gt;&lt;p&gt;Kleine Kontraste, weiche Übergänge und ein stimmiger Schnitt können ein Ergebnis ruhiger wirken lassen als möglichst viele Effekte. Inspirationen sind ein guter Ausgangspunkt – individuelle Voraussetzungen bleiben entscheidend.&lt;/p&gt;&lt;h2&gt;Das Danach gehört dazu&lt;/h2&gt;&lt;p&gt;Coloriertes Haar braucht Aufmerksamkeit. Welcher Pflege-Rhythmus sinnvoll ist, hängt von Haarstruktur, Methode und Ausgangszustand ab. Die konkrete Empfehlung gehört in ein persönliches Beratungsgespräch.&lt;/p&gt;&lt;p&gt;&lt;em&gt;WEBLIOR-Portfoliokonzept: Text vor Veröffentlichung redaktionell prüfen.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+      <ns2:encoded>Wie Haarfarben zu Persönlichkeit, Licht und einem natürlichen Gesamteindruck passen.</ns2:encoded>
+    </item>
+    <item>
+      <title>Soft Glam, klare Linie</title>
+      <description>Ein Beauty-Look, der die natürliche Ausstrahlung betont: Licht, Texturen und feine Akzente.</description>
+      <wp:post_id>2</wp:post_id>
+      <wp:post_name>journal-makeup</wp:post_name>
+      <wp:post_type>post</wp:post_type>
+      <wp:status>draft</wp:status>
+      <wp:comment_status>closed</wp:comment_status>
+      <category domain="category" nicename="make-up-edit">MAKE-UP EDIT</category>
+      <content:encoded>&lt;p&gt;Ein Beauty-Look, der die natürliche Ausstrahlung betont: Licht, Texturen und feine Akzente.&lt;/p&gt;&lt;h2&gt;Weniger, aber bewusster&lt;/h2&gt;&lt;p&gt;Soft Glam lebt von einem ruhigen Hautbild, ausgewählten Highlights und Konturen, die das Gesicht nicht verdecken. Ein Look kann zugleich ausdrucksstark und leicht wirken.&lt;/p&gt;&lt;h2&gt;Farben, die zusammenarbeiten&lt;/h2&gt;&lt;p&gt;Lippen, Augen und Teint müssen nicht alle um Aufmerksamkeit konkurrieren. Oft genügt ein Schwerpunkt: sanfte Augen, ein definierter Lidstrich oder eine klare Lippenfarbe.&lt;/p&gt;&lt;h2&gt;Der richtige Anlass&lt;/h2&gt;&lt;p&gt;Tageslicht, Abendveranstaltung und Fotografie setzen unterschiedliche Akzente. Ein gutes Make-up berücksichtigt den Anlass, die persönlichen Vorlieben und den Komfort auf der Haut.&lt;/p&gt;&lt;p&gt;&lt;em&gt;WEBLIOR-Portfoliokonzept: Text vor Veröffentlichung redaktionell prüfen.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+      <ns2:encoded>Ein Beauty-Look, der die natürliche Ausstrahlung betont: Licht, Texturen und feine Akzente.</ns2:encoded>
+    </item>
+    <item>
+      <title>Kleine Beauty-Rituale</title>
+      <description>Was einen Besuch angenehm macht: Vorbereitung, Ruhe und ein guter erster Eindruck.</description>
+      <wp:post_id>3</wp:post_id>
+      <wp:post_name>journal-ritual</wp:post_name>
+      <wp:post_type>post</wp:post_type>
+      <wp:status>draft</wp:status>
+      <wp:comment_status>closed</wp:comment_status>
+      <category domain="category" nicename="waxing-&amp;-self-care">WAXING &amp; SELF-CARE</category>
+      <content:encoded>&lt;p&gt;Was einen Besuch angenehm macht: Vorbereitung, Ruhe und ein guter erster Eindruck.&lt;/p&gt;&lt;h2&gt;Ein Moment für dich&lt;/h2&gt;&lt;p&gt;Beauty-Behandlungen sind mehr als ein Ergebnis. Freundliche Kommunikation, ein klarer Ablauf und Zeit für Fragen machen einen Termin entspannter.&lt;/p&gt;&lt;h2&gt;Vor dem ersten Besuch&lt;/h2&gt;&lt;p&gt;Bei Waxing oder Sugaring lohnt es sich, vorher nach geeigneter Vorbereitung, Hautverträglichkeit und möglichen Gegenanzeigen zu fragen. Das ist besonders wichtig bei empfindlicher, gereizter oder verletzter Haut.&lt;/p&gt;&lt;h2&gt;Pflege individuell abstimmen&lt;/h2&gt;&lt;p&gt;Was die Haut danach braucht, ist individuell. Für verbindliche Hinweise zu Vorbereitung und Nachpflege gilt: die behandelnde Fachperson fragen und bei Hautproblemen medizinischen Rat einholen.&lt;/p&gt;&lt;p&gt;&lt;em&gt;WEBLIOR-Portfoliokonzept: Text vor Veröffentlichung redaktionell prüfen.&lt;/em&gt;&lt;/p&gt;</content:encoded>
+      <ns2:encoded>Was einen Besuch angenehm macht: Vorbereitung, Ruhe und ein guter erster Eindruck.</ns2:encoded>
+    </item>
+  </channel>
+</rss>

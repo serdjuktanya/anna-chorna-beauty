@@ -1,0 +1,20 @@
+{
+  "name": "Anna Chorna Beauty Studio & School — WEBLIOR Demo",
+  "short_name": "Anna Chorna",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf5f0",
+  "theme_color": "#663846",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
