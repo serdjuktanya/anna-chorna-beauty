@@ -1,3 +1,26 @@
+## v2.22 — Make-up, Waxing & Sugaring Preise (2026-10-14)
+
+- Make-up: 8 Positionen alle ab, Wimpern zzgl. ab 15 €; Brautprobe extra.
+- Waxing & Sugaring: Damen 9 und Herren 12 Behandlungszonen, alle Preise ab; aus bereitgestelltem Preisbeispiel abgeleitet. Nutzer bestätigt, dass Anna beide Methoden anbietet. Bikini komplett / Intimbereich tief ab 30 €.
+- Sugaring-Schulungen: Inhalte und Preise nur nach individueller Absprache.
+- Kein Maniküre-/Pediküre-Angebot. Hair-Preise und Standorte unverändert.
+- GitHub-Update: leistungen.html und assets/style.css.
+- Hinweis: Die Preise stammen aus einer Vorlage eines anderen Studios. Vor tatsächlicher kommerzieller Veröffentlichung die konkreten Einstiegspreise und die Anwendbarkeit auf beide Methoden mit Anna abschließend verifizieren.
+
+## v2.21 — Salonpreise & Hair-Standort (2026-10-14)
+- Hair & Color price list on Leistungen: 19 exact service positions transcribed from the Friseursalon am Betzenberg flyer, including hair length variants and included services. Seven accessible native details/summary groups.
+- Printed salon opening hours and full verified hair salon address (St.-Quentin-Ring 5, 67663 Kaiserslautern) on Kontakt, Google Maps route added.
+- Price source is the salon flyer; a note clarifies that these are salon prices, not independently priced services, and confirms final pricing with salon. Hours are SALON hours, not Anna's personal appointments.
+- EA Beauty Exclusive location and make-up/waxing/sugaring content are unchanged. WhatsApp and Instagram, images, fonts, all other pages, demo/noindex, OG preview and v2.20 iPhone footer fix preserved.
+- Source photographed by user; prices were not independently verified for future validity. Inform the customer that the salon's prices can change.
+
+## v2.20 — Mobile footer boundary
+- Safari/iPhone defensive fix: footer is the final direct body element on all pages.
+- Moved fixed scroll-to-top control before footer in DOM without changing its appearance.
+- Kept native gallery dialog only on Galerie page and explicitly hid it while closed.
+- No changes to the design, WhatsApp preview, text, animations or links.
+- Verify published mobile Safari after deployment: reproduction occurred only on iPhone, not in Chromium test.
+
 ## v2.19 — New WhatsApp / Open Graph Cover
 
 - New 1200×630 photographic editorial OG image `assets/og-anna-chorna-v219.jpg` with Anna Chorna branding and services; the pictured woman is an **illustrative AI-generated model, not Anna or a client**.
