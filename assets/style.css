@@ -660,3 +660,69 @@
  .page-leistungen .service-chapter-top .location-tag{font-size:9px;letter-spacing:.035em;gap:5px;padding:8px}
  .page-leistungen .service-chapter-top .location-tag>span:last-child{padding-left:0}
 }
+
+
+/* v2.20 · iOS footer-end guard.
+   Keep modal out of document flow until opened by the visitor;
+   site footer is the last body child on every page. */
+dialog.lightbox:not([open]){display:none!important}
+
+
+/* v2.21 — Hair salon prices: responsive native accordion */
+.salon-pricebook{margin-top:clamp(66px,8vw,120px);padding:clamp(30px,5vw,70px);background:linear-gradient(153deg,#f6eae5 0%,#fffaf6 55%,#f7eae7 100%);border:1px solid #e6cecb;position:relative}
+.salon-price-head{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.85fr);gap:34px;align-items:end;border-bottom:1px solid #dfc5c4;padding-bottom:34px;margin-bottom:24px}
+.salon-price-head .micro-label{font-size:10px;color:#a37681;letter-spacing:.18em}
+.salon-price-head h3{font-family:var(--serif);color:var(--wine);font-weight:400;font-size:clamp(46px,5.7vw,87px);line-height:.99;letter-spacing:-.05em;margin:18px 0 0}
+.salon-price-head h3 em{color:#b98792;font-weight:400}
+.salon-price-head>p{font-size:13px;line-height:1.85;color:#836e73;max-width:360px;margin:0 0 4px}
+.salon-prices-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:15px}
+.salon-price-group{min-width:0;border:1px solid #e4cfcb;background:#fffaf8}
+.salon-price-group[open]{background:#fffdfb;border-color:#ccacae}
+.salon-price-group summary{list-style:none;display:flex;align-items:center;gap:10px;min-height:81px;padding:20px 20px;cursor:pointer;color:var(--wine)}
+.salon-price-group summary::-webkit-details-marker{display:none}
+.salon-price-group summary::marker{content:''}
+.salon-price-title{font-family:var(--serif);font-size:clamp(24px,2.2vw,32px);line-height:1.1;flex:1;min-width:0}
+.salon-price-count{font:600 9px/1.3 var(--sans);letter-spacing:.09em;color:#a6888d;white-space:nowrap}
+.salon-price-chevron{display:block;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;width:9px;height:9px;transform:rotate(45deg);margin:0 2px 4px 8px;transition:transform .25s ease;flex:none}
+.salon-price-group[open] .salon-price-chevron{transform:rotate(225deg);margin-top:8px;margin-bottom:0}
+.salon-price-group summary:focus-visible{outline:2px solid var(--wine);outline-offset:-4px}
+.salon-price-rows{padding:0 20px 17px}
+.salon-price-row{border-top:1px solid #f0e3df;padding:17px 0;display:flex;align-items:baseline;justify-content:space-between;gap:12px;min-width:0}
+.salon-price-row:last-child{padding-bottom:4px}
+.salon-price-service{flex:1;min-width:0}
+.salon-price-service strong{display:block;color:#48383b;font-size:12px;font-weight:600;line-height:1.55}
+.salon-price-service small{display:block;color:#947b80;font-size:10px;line-height:1.7;margin-top:4px}
+.salon-price-amount{font-size:12px;line-height:1.55;color:var(--wine);font-weight:700;text-align:right;max-width:50%;white-space:normal;font-variant-numeric:tabular-nums}
+.salon-price-bottom{padding-top:26px;display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
+.salon-price-bottom p{font-size:11px;line-height:1.8;color:#876f74;max-width:580px;margin:0}
+.salon-price-bottom p strong{color:var(--wine)}
+.salon-price-location{color:var(--wine);font-size:11px;line-height:1.7;max-width:290px;text-decoration:none;border-bottom:1px solid #ba979e;padding-bottom:9px;display:inline-flex;gap:8px;align-items:center}
+.salon-price-location .icon-arrow-up-right{width:15px;height:15px;flex:none}
+.salon-hours{margin:18px 0 0;padding-top:16px;border-top:1px solid #ead8d3;display:grid;gap:7px}
+.salon-hours b{font-size:11px;font-weight:700;color:var(--wine)}
+.address-box .salon-hours span{font-size:12px;line-height:1.5;letter-spacing:0;color:#6c5e60;margin:0}
+.address-box .salon-hours small{line-height:1.5}
+@media(max-width:900px){.salon-price-head{grid-template-columns:1fr}.salon-prices-grid{grid-template-columns:1fr}.salon-price-bottom{flex-direction:column}}
+@media(max-width:600px){.salon-pricebook{margin-top:62px;padding:25px 16px}.salon-price-head{gap:17px;padding-bottom:25px}.salon-price-head h3{font-size:clamp(48px,12vw,70px)}.salon-price-group summary{padding:16px 15px;min-height:72px}.salon-price-title{font-size:27px}.salon-price-count{font-size:8px}.salon-price-rows{padding:0 15px 14px}.salon-price-row{align-items:start}.salon-price-amount{max-width:46%;font-size:11px}.salon-price-service strong{font-size:12px}.salon-price-head>p{font-size:12px}}
+@media(max-width:340px){.salon-price-title{font-size:23px}.salon-price-count{letter-spacing:0}.salon-price-amount{max-width:52%}}
+@media(prefers-reduced-motion:reduce){.salon-price-chevron{transition:none}}
+
+.salon-prices-jump{color:var(--wine);font-size:12px;text-decoration:none;display:flex;gap:8px;align-items:center;margin:7px 0 22px;font-weight:600;letter-spacing:.03em;width:fit-content;border-bottom:1px solid #be9aa4;padding-bottom:8px}
+.salon-prices-jump svg{width:15px;height:15px}
+#hair-preise{scroll-margin-top:110px}
+
+/* v2.22 · Anna Beauty: Makeup and Sugaring starting-price lists */
+.page-leistungen .beauty-pricebook{background:linear-gradient(150deg,#fdf6f1 0%,#fffafa 58%,#f5e5e5 100%);border-color:#dcc0c2}
+.page-leistungen .beauty-sugarbook{margin-top:36px;background:linear-gradient(154deg,#f7e8e5 0%,#fff8f7 57%,#f1dfdf 100%)}
+.page-leistungen .beauty-training{display:flex;justify-content:space-between;align-items:center;gap:32px;padding:27px 28px;margin-top:24px;background:#ead2d0;border:1px solid #d9b7b8}
+.page-leistungen .beauty-training h4{font:400 clamp(30px,4vw,47px)/1.08 var(--serif);letter-spacing:-.025em;color:var(--wine);margin:12px 0}
+.page-leistungen .beauty-training h4 em{font-weight:400;color:#ad7b86}
+.page-leistungen .beauty-training p{max-width:535px;font-size:12px;line-height:1.75;color:#745f64;margin:0}
+.page-leistungen .beauty-training a{display:inline-flex;justify-content:center;align-items:center;gap:12px;flex:none;border:1px solid #885965;color:var(--wine);border-radius:2px;padding:16px 18px;font-size:11px;font-weight:700;letter-spacing:.025em;text-decoration:none;transition:background .2s,color .2s}
+.page-leistungen .beauty-training a:hover{background:var(--wine);color:white}
+.page-leistungen .beauty-training a:focus-visible{outline:2px solid var(--wine);outline-offset:3px}
+.page-leistungen .beauty-training a svg{width:16px;height:16px;flex:none}
+@media(max-width:900px){.page-leistungen .beauty-training{flex-direction:column;align-items:flex-start;gap:19px}}
+@media(max-width:600px){.page-leistungen .beauty-sugarbook{margin-top:24px}.page-leistungen .beauty-training{padding:20px 17px}.page-leistungen .beauty-training a{width:100%}.page-leistungen .beauty-pricebook .salon-price-title{font-size:clamp(24px,6vw,29px)}}
+@media(max-width:340px){.page-leistungen .beauty-pricebook .salon-price-count{font-size:7px;letter-spacing:0}.page-leistungen .beauty-training h4{font-size:31px}}
+#beauty-preise,#sugaring-preise{scroll-margin-top:112px}
